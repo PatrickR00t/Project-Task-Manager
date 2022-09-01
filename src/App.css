@@ -16,12 +16,17 @@ body {
 }
 
 .form input {
-  height: 29px;
-  width: 190px;
-  margin-right: 5px;
+  height: 17px;
+  width: 188px;
+  margin-right: 7px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 4px;
+  padding: 0.4rem;
+}
+
+.form input:focus, select:focus {
+  outline: 0;
 }
 
 .form button {
@@ -29,7 +34,7 @@ body {
   height: 29px;
   width: 70px;
   padding: 0.2rem;
-  border-radius: 7px;
+  border-radius: 5px;
   background: #8975;
   color: #fff;
 }
@@ -40,6 +45,11 @@ body {
   padding: 0.2rem;
   margin: 4px 4px;
   color: #fff;
+  outline: 0;
+}
+
+.task input:focus, select:focus {
+  outline: 0;
 }
 
 .task button {
