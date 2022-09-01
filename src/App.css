@@ -1,51 +1,58 @@
 * {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-.container {
-  background-color: blue;
-  margin: 2px 4px;
-  border-radius: 15px;
-  padding-bottom: 20px;
+body {
+  background: #708090;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body h1 {
-  padding: 20px;
+.title {
+  padding: 1rem;
+  color: #fff;
 }
 
 .form input {
-  height: 28px;
+  height: 29px;
+  width: 190px;
+  margin-right: 5px;
   border: none;
-  border-radius: 20px;
-  width: 270px;
-  margin: 2px 7px;
+  border-radius: 10px;
+  margin-bottom: 4px;
 }
 
 .form button {
-  cursor: pointer;
-  padding: 7px;
-  height: 28px;
   border: none;
+  height: 29px;
+  width: 70px;
+  padding: 0.2rem;
   border-radius: 7px;
-  background-color: cornflowerblue;
+  background: #8975;
+  color: #fff;
+}
+
+.task input {
+  background: transparent;
+  border: none;
+  padding: 0.2rem;
+  margin: 4px 4px;
+  color: #fff;
+}
+
+.task button {
+  border: none;
+  margin: 2px 2px;
+  height: 20px;
+  width: 50px;
+  border-radius: 4px;
+  background: rgb(66, 133, 160);
+  color: #fff;
 }
 
 .task li {
   list-style: none;
-}
-
-.task input {
-  border: none;
-  background: none;
-}
-
-.task button {
-  cursor: pointer;
-  padding: 4px;
-  border: none;
-  border-radius: 7px;
-  margin: 4px 1px;
-  background-color: darkcyan;
+  padding: 0.1rem;
 }

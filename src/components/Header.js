@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return(
-    <h1>Task Manager</h1>
+    <h1 className="title">Task Manager</h1>
   );
 }
 
